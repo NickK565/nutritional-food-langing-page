@@ -1,7 +1,6 @@
 {
   "name": "food",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -18,5 +17,7 @@
   "homepage": "https://github.com/NickK565/calorie-langing-page#readme",
   "devDependencies": {
     "json-server": "^0.16.3"
-  }
+  },
+  "keywords": [],
+  "description": ""
 }
