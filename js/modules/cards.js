@@ -1,3 +1,5 @@
+import {getResourse} from '../services/services';
+
 function cards (){
 
     class MenuCard {
@@ -42,7 +44,7 @@ function cards (){
     }
 
     const getResourse = async(url, data) => {
-        const res = await fetch(url);
+        let res = await fetch(url);
 
         if (!res.ok) {
             throw new Error(`Could not fetch ${url}, status: ${res.status}`);
@@ -61,4 +63,4 @@ function cards (){
 
 }
 
-module.exports = cards;
+export default cards;
